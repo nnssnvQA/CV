@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+/*    background-color: #ED96E3;*/
+    background-image: radial-gradient(circle, #eb7096, #ebbac2, #ffffff);
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 70px;
+}
+
+strong {
+    color: #4C4C4C;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #F6DBE9;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #4C4C4C;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #777;
+}
+
+.profile-picture {
+    text-align: center;
+    margin: 20px 0;
+/*    animation: bounce 1.5s infinite alternate;*/
+}
+
+.profile-picture img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    margin-left: 70px;
+/*    animation: bounce 1.5s infinite alternate;*/
+}
+
+/*@keyframes bounce {
+    to {
+        transform: translateY(-10px);
+    }
+}*/
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0;
+    border-bottom: 3px solid #F6DBE9;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.info a {
+    color: #eb7096;
+    text-decoration: none;
+}
+h3 {
+    color: #4C4C4C;
+}
+
+.info
+{
+    margin-top: 80px;
+    margin-right: 70px;
+}
+
+.bio, .skills {
+    padding: 20px 0;
+    border-bottom: 3px solid #F6DBE9;
+}
+
+.bio p {
+/*    margin: 0;*/
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #ebbac2;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.button-wrapper {
+    height: 150px;
+    width: 300px;
+    padding: 25px;
+    margin: 0 auto 0 auto;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    position: relative;
+}
+
+.button {
+    width: 50px;
+    position: absolute;
+    border: 2px solid #eb7096;
+    border-radius: 8px;
+    color: #4C4C4C;
+}
+
+#no-button {
+    transition: all 0.07s linear 0s;
+    left: calc(300px / 2 + 50px);
+}
+
+#yes-button {
+    left: calc(300px / 2 - 50px);
+}
+
+.gif {
+    width: 220px;
+    height: 180px;
+    margin-left: -70px;
+    margin-top: -250px;
+    margin-bottom: -64px;
+}
+
+.footer {
+    text-align: center;
+    padding: 5px 0;
+    color: #777;
+}

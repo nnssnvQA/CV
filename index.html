@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA says hello</title>
+    <link rel="stylesheet" href="styles.css">
+    <link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="favicon.ico" rel="icon">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Анастасия Соколова</h1>
+            <h2>QA Engineer</h2>
+        </header>
+        <section class="content">
+            <div class="profile-picture">
+                <img src="photo.jpg" alt="Nastya Sokolova">
+            </div>
+            <div class="info">
+                <p><strong>Email:</strong> nastya.sokolova.114@gmail.com</p>
+                <p><strong>Телефон:</strong> 8 (913) 085 8734</p>
+                <p><strong>Telegram:</strong> <a href="https://t.me/nnssnv" target="_blank">https://t.me/nnssnv</a></p>
+                <p><strong>Местонахождение:</strong> Иннополис, Россия</p>
+            </div>
+        </section>
+        <section class="bio">
+            <h3>Давай знакомиться ;)</h3>
+            <p>Я QA-инженер с 2 годами практического опыта в ручном тестировании ПО. Мой опыт включает в себя написание чек-листов, тест-кейсов, а так же подробных баг-репортов для обеспечения высокого качества продукта. Я глубоко понимаю жизненный цикл разработки ПО и умею находить, локализовывать, и заводить репорты на баги.</p>
+            <p>Мое скрупулезное отношение к деталям и эффективная работа с командой - отличное комбо.</p>
+            <p>Я люблю работать в коллективе и постоянно развивать свои soft и hard скиллы :)</p>
+        </section>
+        <section class="skills">
+            <h3>Навыки</h3>
+            <ul>
+                <li>Ручное тестирование</li>
+                <li>Agile</li>
+                <li>Написание тест-кейсов</li>
+                <li>Составление чек-листов</li>
+                <li>SQL</li>
+                <li>PostgreSQL</li>
+                <li>JSON</li>
+                <li>Postman</li>
+                <li>HTML</li>
+                <li>TMS</li>
+                <li>XML</li>
+                <li>Техники тест-дизайна</li>
+                <li>Составление баг-репортов</li>
+                <li>REST</li>
+                <li>Канбан</li>
+                <li>Figma</li>
+                <li>Devtools</li>
+                <li>ChatGPT</li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <p> Посотрудничаем?👋</p>
+            <div class="button-wrapper">
+                <a href="https://t.me/nnssnv" id="yes-button" class="button">Да</a>
+                <a href="#" id="no-button" class="button">Нет</a>
+                <!-- <input type="button" value="Нет" id="no-button"> -->
+                <!-- <input type="button" value="Да" id="yes-button"> -->
+            </div>
+        </footer>
+        <img class="gif" src="cat.gif" alt="Cat">
+    </div>
+</body>
+    <script type="text/javascript">
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        
+        $("#no-button").hover(function () {
+            $(this).css({
+                top: getRandomInt(0, 150)+"px",
+                left: getRandomInt(0, 300)+"px"
+            });
+        }, function () { });
+    </script>
+</html>
